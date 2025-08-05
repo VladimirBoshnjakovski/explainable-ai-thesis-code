@@ -17,4 +17,7 @@ Manual one-hot encoding was applied to categorical variables to maintain full co
 The original dataset was used for training white-box models (e.g., decision trees, logistic regression), where interpretability is inherently built-in. A synthetic version of the dataset was created and used exclusively to train the black-box model (deep neural network). This allowed for controlled testing of post-hoc explainability techniques like SHAP, LIME, and counterfactual explanations.
 
 **📄 License**
-This repository is shared for academic and educational purposes. For any commercial use, please contact the author directly
+This repository is licensed under the MIT License, allowing free use, modification, and distribution for any purpose, including commercial use, with attribution.
+
+**Disclaimer:**
+This code is provided "as is" without any warranties, express or implied, and the author is not liable for any damages arising from its use.
